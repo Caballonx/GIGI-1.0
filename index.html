@@ -19,12 +19,12 @@ body{
 margin:0;
 font-family: 'Poppins', sans-serif;
 background:
-linear-gradient(rgba(214, 14, 214, 0.242), rgba(255,255,255,0.85)),
-url('https://firebasestorage.googleapis.com/v0/b/gigi-style-lashes.firebasestorage.app/o/Gemini_Generated_Image_hcmnu1hcmnu1hcmn.png?alt=media&token=ef3c86b1-8c90-4430-acec-d46f61411673');
+linear-gradient(rgba(194,106,141,0.2), rgba(194,106,141,0.2)),
+url('https://firebasestorage.googleapis.com/v0/b/gigi-style-lashes.firebasestorage.app/o/9a603e49-cf15-4654-a51b-26b70246b34b.png?alt=media&token=6a2e8b5a-3478-483f-80bd-7700d31e2011');
 background-size: cover;
-background-position: center;
-background-attachment: fixed;
+background-position: center top;
 }
+
 
 
 header{
@@ -635,8 +635,18 @@ async function cargarServicios() {
         <h4>${data.nombre}</h4>
         <p>Precio: RD$ ${data.precio}</p>
         <button onclick="agregarAlCarrito('${data.nombre}','${data.precio}')" 
-        style="margin-top:10px;background:#c26a8d;color:white;border:none;padding:8px 12px;border-radius:8px;cursor:pointer;">
-        Agregar al carrito
+        style="
+margin-top:10px;
+background:#c26a8d;
+color:white;
+border:none;
+padding:10px 18px;
+border-radius:50px;
+cursor:pointer;
+font-weight:600;
+transition:0.3s;
+">
+Agregar al carrito
         </button>
       </div>
     `;
